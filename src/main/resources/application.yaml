@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo-aws-s3
+
+aws:
+  access-key-id: ${AWS-ACCESS-KEY:}
+  secret-access-key: ${AWS-SECRET-ACCESS-KEY:}
+  s3-region: ${AWS-S3-REGION:}
+  bucket-name: ${AWS-S3-BUCKET:}
+
+port-server: 8080
